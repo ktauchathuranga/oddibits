@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.541 1.01)
-		(end -0.541 -0.73975)
+		(start -0.54 0.91)
+		(end -0.54 -0.64)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -65,8 +65,8 @@
 		(uuid "f1317f8a-357c-430c-b094-859dfee62c5e")
 	)
 	(fp_line
-		(start -0.541 1.01)
-		(end 0.54 1.01)
+		(start -0.54 0.91)
+		(end 0.54 0.91)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "421b1775-e49e-4ae2-8fd4-29c49f64d936")
 	)
 	(fp_line
-		(start 0.54 -1.01)
-		(end -0.27075 -1.01)
+		(start 0.54 -0.91)
+		(end -0.27 -0.91)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "85cad756-93d8-4334-a626-af577cc1b4c2")
 	)
 	(fp_line
-		(start 0.54 1.01)
-		(end 0.54 -1.01)
+		(start 0.54 0.91)
+		(end 0.54 -0.91)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -96,7 +96,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.541 -1.01) (xy -0.541 -1.5505) (xy -1.0815 -1.01)
+			(xy -0.54 -0.91) (xy -0.54 -1.4505) (xy -1.0805 -0.91)
 		)
 		(stroke
 			(width 0.1)
@@ -116,6 +116,17 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1123c6cd-3d7e-4f62-9e7c-0a999360bbea")
+	)
+	(fp_rect
+		(start -0.4405 -0.81)
+		(end 0.4405 0.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f9dcf761-ef2a-450b-8ccf-2f3ecf97cb26")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.07 0)
