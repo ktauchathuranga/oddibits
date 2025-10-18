@@ -205,4 +205,15 @@
 		(uuid "d854ac9f-9142-402d-80f9-ef5af2460c1e")
 	)
 	(embedded_fonts no)
+	(model "../../3dmodels/TexasInstruments_MSPM0C1104.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
