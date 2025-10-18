@@ -1,4 +1,4 @@
-(footprint "TexasInstruments_MSPM0C1104"
+(footprint "TexasInstruments_MSPM0C1104_SOT23-8"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "TexasInstruments_MSPM0C1104"
+	(property "Value" "TexasInstruments_MSPM0C1104_SOT23-8"
 		(at 0 5.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -205,7 +205,7 @@
 		(uuid "d854ac9f-9142-402d-80f9-ef5af2460c1e")
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels/TexasInstruments_MSPM0C1104.step"
+	(model "../../3dmodels/TexasInstruments_MSPM0C1104_SOT23-8.step"
 		(offset
 			(xyz 0 0 0)
 		)
