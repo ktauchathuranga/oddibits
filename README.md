@@ -19,6 +19,7 @@ Contains custom KiCad symbol library files (.kicad_sym) for schematic design.
 |-----------|------|----------|
 | SM04B-SRSS-TB (LF)(SN) | Connector | JST SH Connector |
 | Texas Instruments MSPM0C1104 | Microcontroller | SOT23-8 Package |
+| ST-TF-003A | Connector | Card Holder |
 
 ## Installation
 
