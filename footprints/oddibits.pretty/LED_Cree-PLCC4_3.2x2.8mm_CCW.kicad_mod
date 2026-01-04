@@ -1,0 +1,219 @@
+(footprint "LED_Cree-PLCC4_3.2x2.8mm_CCW"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLV1A-FKB.pdf")
+	(tags "LED Cree PLCC-4 3528 CLV1A-FKB")
+	(property "Reference" "REF**"
+		(at 0 -2.65 0)
+		(layer "F.SilkS")
+		(uuid "6e6879de-e71a-48fc-ae72-de58afc5b4d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Cree-PLCC4_3.2x2.8mm_CCW"
+		(at 0 2.65 0)
+		(layer "F.Fab")
+		(uuid "bf4d6e71-6032-4d8c-8a39-59345a5fd699")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11495074-1388-4723-bf34-ddcc33db9771")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "180c38a5-212d-4ca2-b8f9-90577b3e5e15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -2.01 -1.21) (xy -2.01 1.51) (xy 2.01 1.51) (xy 2.01 -1.51) (xy -1.71 -1.51)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "50cc3805-6eb6-45ab-b236-b9a0bbcf00fe")
+	)
+	(fp_line
+		(start -2 -1.65)
+		(end -2 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57616c6f-dbc4-4eb1-9830-65f9b173fb95")
+	)
+	(fp_line
+		(start -2 1.65)
+		(end 2 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30603d5b-105e-42e6-a72d-7af2067edab5")
+	)
+	(fp_line
+		(start 2 -1.65)
+		(end -2 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73d925b4-b688-4c92-8ea9-5007c8e61b7f")
+	)
+	(fp_line
+		(start 2 1.65)
+		(end 2 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91092084-55fc-42ef-ab94-a9bbc35e53c5")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24a1fa40-e18d-4597-9793-ce9e05fbc0dd")
+	)
+	(fp_line
+		(start -1.6 1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8106e629-ab0e-4f6b-9db1-13bb4f9d43a2")
+	)
+	(fp_line
+		(start -0.6 -1.4)
+		(end -1.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9555550-93fa-4f76-aeca-0995f974af71")
+	)
+	(fp_line
+		(start 1.6 -1.4)
+		(end -1.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "396b531e-6365-4715-8630-e9b11ec7f1e2")
+	)
+	(fp_line
+		(start 1.6 1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1540201-387a-4349-a619-b43f9f4cdd36")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.12 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dd1d25e8-27df-424d-8251-f366ac093064")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "95f57bbb-9807-4592-a507-794c6c1335b1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.25 -0.7)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f661077c-21f7-450b-831e-2a678b680b22")
+	)
+	(pad "2" smd roundrect
+		(at -1.25 0.7)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "eb9e31fd-b6e8-4a57-94f4-3022da6ac675")
+	)
+	(pad "3" smd roundrect
+		(at 1.25 0.7)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b0a55c1f-4f90-45c3-b431-c5ec0b98c0f9")
+	)
+	(pad "4" smd roundrect
+		(at 1.25 -0.7)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fc872289-be28-4f3b-be8f-95260a42e523")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/CLV1A-FKB-CK1VW1DE1BB7C3C3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
